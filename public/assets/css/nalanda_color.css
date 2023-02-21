@@ -1,0 +1,116 @@
+
+body {
+font-family: var(--body-font-popins);
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+color: var(--body-text-color);
+background-color: var(--body-bg-color);
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);    
+}
+a{color:var(--body-text-color);}
+
+/* background color start */
+.bg-color-1-1{ background-color: var(--bg-1-1); }
+.bg-color-2-1{ background-color: var(--bg-2-1); }
+.bg-color-2-2{ background-color: var(--bg-2-2); }
+.bg-color-2-3{ background-color: var(--bg-2-3); }
+.bg-color-2-4{ background-color: var(--bg-2-4); }
+
+.bg-color-3-1{ background-color: var(--bg-3-1); }
+.bg-color-3-2{ background-color: var(--bg-3-2); }
+.bg-color-3-3{ background-color: var(--bg-3-3); }
+.bg-color-3-4{ background-color: var(--bg-3-4); }
+
+.bg-color-4-1{ background-color: var(--bg-4-1); }
+.bg-color-5-1{ background-color: var(--bg-5-1); }
+.bg-color-6-1{ background-color: var(--bg-6-1); }
+.bg-color-7-1{ background-color: var(--bg-7-1); }
+/* background color end */
+
+/* text color start */
+.text-color-1-1{ color: var(--text-1-1); }
+.text-color-2-1{ color: var(--text-2-1); }
+.text-color-2-2{ color: var(--text-2-2); }
+.text-color-2-3{ color: var(--text-2-3); }
+.text-color-2-4{ color: var(--text-2-4); }
+
+.text-color-3-1{ color: var(--text-3-1); }
+.text-color-3-2{ color: var(--text-3-2); }
+.text-color-3-3{ color: var(--text-3-3); }
+.text-color-3-4{ color: var(--text-3-4); }
+
+.text-color-4-1{ color: var(--text-4-1); }
+.text-color-5-1{ color: var(--text-5-1); }
+.text-color-6-1{ color: var(--text-6-1); }
+.text-color-7-1{ color: var(--text-7-1); }
+/* text color end */
+
+
+/* button color start */
+.btn-1{ background-color: var(--btn-1);color: var(--text-1-1);cursor: pointer;}
+.btn-1:hover, .btn-1.active{ background-color: var(--btn-1-hover) }
+.btn-1:disabled,.btn-1.disabled{background-color: var(--btn-1-disabled); cursor:not-allowed;}
+
+.btn-2{ background-color: var(--btn-2);color: var(--text-2-1);cursor: pointer;}
+.btn-2:hover,.btn-2.active{ background-color: var(--btn-2-hover);color: var(--text-1-1)}
+.btn-2:disabled, .btn-2.disabled{background-color: var(--btn-2-disabled); cursor:not-allowed;}
+
+.btn-3{background-color: var(--btn-3);cursor: pointer;}
+.btn-3:hover,.btn-3.active{ background-color: var(--btn-3-hover)}
+.btn-3:disabled, .btn-3.disabled{background-color: var(--btn-3-disabled); cursor:not-allowed;}
+
+.btn-4{background-color: var(--btn-4);cursor: pointer;}
+.btn-4:hover,.btn-4.active{background-color:var( --btn-4-hover);}
+.btn-4:disabled,.btn-4.disabled{background-color:var(--btn-4-disabled);cursor:not-allowed;}
+
+.btn-5{background-color: var(--btn-5);cursor: pointer;}
+.btn-5:hover,.btn-5.active{ opacity: 0.7;}
+.btn-5:disabled,.btn-5.disabled{opacity: 0.6; cursor:not-allowed;}
+
+.btn-6{background-color: var(--btn-6);cursor: pointer;}
+.btn-6:hover,.btn-6.active{ opacity: 0.7;}
+.btn-6:disabled,.btn-6.disabled{opacity: 0.6; cursor:not-allowed;}
+
+.btn-7{background-color: var(--btn-7);cursor: pointer;}
+.btn-7:hover,.btn-7.active{ opacity: 0.7;}
+.btn-7.disabled, .btn-7.disabled{opacity: 0.6; cursor:not-allowed;}
+
+.btn-8{background-color: var(--btn-8);cursor: pointer;}
+.btn-8:hover,.btn-8.active{ opacity: 0.7;}
+.btn-8.disabled, .btn-8.disabled{opacity: 0.6; cursor:not-allowed;}
+/* button color end */
+
+
+.text-btn-1{color: var(--text-btn-1)}
+.text-btn-1:hover,.text-btn-1.active{color:var(--text-btn-1-hover);}
+.text-btn-1:disabled{color: var(--text-btn-1-disabled); cursor:not-allowed;}
+
+.text-btn-2{color: var(--text-btn-2)}
+.text-btn-2:hover,.text-btn-2.active{color:var(--text-btn-2-hover);}
+.text-btn-2:disabled{color: var(--text-btn-2-disabled); cursor:not-allowed;}
+
+/* border color start */
+.border-color-1-1{ border-color: var(--border-1-1)}
+.border-color-2-1{ border-color: var(--border-2-1)}
+.border-color-2-2{ border-color: var(--border-2-2)}
+.border-color-2-3{ border-color: var(--border-2-3)}
+.border-color-3-1{ border-color: var(--border-3-1)}
+/* border color end */
+
+
+/* gradient start */
+.gradient-1{ background: linear-gradient(var(--gradient-1)); }
+
+/* shadow start */
+.shadow-1 {box-shadow: var(--showdow-1);}
+.shadow-2 {box-shadow: var(--showdow-2);}
+.shadow-3 {box-shadow: var(--showdow-3);}
+.shadow-4 {box-shadow: var(--showdow-4);}
+.shadow-none {box-shadow: none;}
+/* shadow end */
+
+.scrollbar::-webkit-scrollbar {width: 4px}
+.scrollbar::-webkit-scrollbar-track {background: var(--scrollbar-color)}
+.scrollbar::-webkit-scrollbar-thumb {background: var(--scrollbar-track-color)}

@@ -1,0 +1,102 @@
+:root {
+  --body-font-popins: 'Poppins', sans-serif;
+  --body-text-color: #000000;
+  --body-bg-color: #F4F7FB;
+  --scrollbar-color: #c0c4c7;
+  --scrollbar-track-color: #0054B8;
+
+  /* gradient */
+  --gradient-1: 180deg, #679CF6 0%, #4072EE 100%;
+
+
+  /* box shadow */
+  --showdow-sidebar: 0px 0px 5px #E5E9F2;
+  --showdow-header: 0 0.15rem 1.75rem 0 rgb(58 59 69 / 15%);
+  --showdow-1: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  --showdow-2: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  --showdow-3: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  --showdow-4: 0px 5px 15px rgba(0, 14, 75, 0.3);
+
+  --heading-1-text: #0D2E73;
+
+  /* background color*/
+  --bg-1-1: #fff;
+  --bg-2-1: #000;
+  --bg-2-2: #F4F7FB;
+  --bg-2-3: #c0c4c7;
+  --bg-2-4: #DADADA;
+
+  --bg-3-1: #0D2E73;
+  --bg-3-2: #0054B8;
+  --bg-3-3: #cce2ff;
+  --bg-3-4: #87B9E7;
+
+  --bg-4-1: #df1125;
+  --bg-5-1: #d0f2b1;
+  --bg-6-1: #FCD974;
+  --bg-7-1: #fda27e;
+
+  /* text color */
+  --text-1-1: #fff;
+  --text-2-1: #000;
+  --text-2-2: #F4F7FB;
+  --text-2-3: #6f7070;
+  --text-2-4: #DADADA;
+
+  --text-3-1: #0D2E73;
+  --text-3-2: #0054B8;
+  --text-3-3: #cce2ff;
+  --text-3-4: #87B9E7;
+
+  --text-4-1: #df1125;
+  --text-5-1: #d0f2b1;
+  --text-6-1: #FCD974;
+  --text-7-1: #fda27e;
+
+
+  /* Button color  */
+  --btn-1: #0D2E73;
+  --btn-1-hover: #0E53B4;
+  --btn-1-disabled: #CCE2FF;
+
+  --btn-2: #cce2ff;
+  --btn-2-hover: #0D2E73;
+  --btn-2-disabled: #cce2ff;
+  
+  --btn-3: #87b9e7;
+  --btn-3-hover: #87b9e766;
+  --btn-3-disabled: #381ddb1a;
+
+  --btn-4: #FFF;
+  --btn-4-hover: #dbdbdb66;
+  --btn-4-disabled: #e7e6e666;
+
+   --btn-5: #df1125;
+   --btn-6: #d0f2b1;
+   --btn-7: #FCD974;
+   --btn-8: #fda27e;
+  /* Button color */
+
+
+  --text-btn-1: #0D2E73;
+  --text-btn-1-hover: #0E53B4;
+  --text-btn-1-disabled: #CCE2FF;
+
+  --text-btn-2: #678dc1;
+  --text-btn-2-hover: #0D2E73;
+  --text-btn-2-disabled: #cce2ff;
+
+  /* border color */
+  --border-1-1: #fff;
+  --border-2-1: #000;
+  --border-2-2: #F4F7FB;
+  --border-2-3: #e3e6f0;
+  --border-3-1: #0D2E73;
+
+
+  /* supporting color  */
+  --success: #198754;
+  --danger: #dc3545;
+  --info: #0dcaf0;
+  --warning: #ffc107;
+}

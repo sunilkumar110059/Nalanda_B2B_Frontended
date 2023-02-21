@@ -1,0 +1,18 @@
+
+.stline {position: relative;width: 45px;height: 100%;}
+.stlinesolid::before, .stlinedotted::before {content: "";position: absolute;top: 11px;right: -18px;width: 13px;height: 13px;border-radius: 50%;border: solid 2px var(--border-3-1);}
+.stlinesolid::before {background-color: var(--bg-3-1);}
+.stlinedotted::before {background-color: var(--bg-1-1);}
+.stlinesolid::after, .stlinedotted::after {content: "";position: absolute;top: 22px;right: -13px;height: 100%;}
+.stlinesolid::after {border: solid 1px var(--bg-3-1);}
+.stlinedotted::after {border: dashed 1px var(--bg-3-1);}
+.standingwrap:last-child .stlinesolid::after, .standingwrap:last-child .stlinedotted::after {height: 0;}
+
+.assetscol {max-height: 322px;overflow-x: hidden;overflow-y: auto;}
+
+.timelinerow .timecol {padding-left: 20px;position: relative;}
+.timelinerow .timecol::before {content: "";position: absolute;top: 6px;left: 0;width: 9px;height: 9px;border-radius: 50%;background-color: var(--bg-3-1);}
+.timelinerow .timecol::after {content: "";position: absolute;top: 6px;left: 3px;height: 100%;border: solid 1px var(--bg-3-1);}
+.timelinerow .timecol:last-child::after {height: calc(100% - 15px);}
+
+.remarkcol {height: 150px;}

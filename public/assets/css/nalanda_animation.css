@@ -1,0 +1,47 @@
+/* roller loader start */
+.lds-roller {position: relative; }
+.lds-roller .lds {animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite; transform-origin: 40px 40px; position: relative;} 
+.lds-roller .lds span {display: block;position: absolute;width: 7px;height: 7px;border-radius: 50%;}
+.lds-roller .lds-1 {animation-delay: -0.036s;}
+.lds-roller .lds-1 span {top: 63px;left: 63px;}
+.lds-roller .lds-2 {animation-delay: -0.072s;}
+.lds-roller .lds-2 span{top: 68px;left: 56px;}
+.lds-roller .lds-3 {animation-delay: -0.108s;}
+.lds-roller .lds-3 span{top: 71px;left: 48px;}
+.lds-roller .lds-4 {animation-delay: -0.144s;}
+.lds-roller .lds-4 span{top: 72px;left: 40px;}
+.lds-roller .lds-5 {animation-delay: -0.18s;}
+.lds-roller .lds-5 span{top: 71px;left: 32px;}
+.lds-roller .lds-6 {animation-delay: -0.216s;}
+.lds-roller .lds-6 span{top: 68px;left: 24px;}
+.lds-roller .lds-7 {animation-delay: -0.252s;}
+.lds-roller .lds-7 span{top: 63px;left: 17px;}
+.lds-roller .lds-8 {animation-delay: -0.288s;}
+.lds-roller .lds-8 span {top: 56px;left: 12px;}
+@keyframes lds-roller {
+0% {transform: rotate(0deg);-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-o-transform: rotate(0deg)}
+100% {transform: rotate(360deg);-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-ms-transform: rotate(360deg);-o-transform: rotate(360deg)}
+}
+/* roller loader end */
+
+
+/* ellipsis loader start */
+.lds-ellipsis {position: relative;}
+.lds-ellipsis .lds {position: absolute;width: 12px;height: 12px;border-radius: 50%;animation-timing-function: cubic-bezier(0, 1, 1, 0);}
+.lds-ellipsis .lds-1 {left:8px;animation:lds-ellipsis1 0.6s infinite;}
+.lds-ellipsis .lds-2 {left:8px;animation:lds-ellipsis2 0.6s infinite;}
+.lds-ellipsis .lds-3 {left:32px;animation:lds-ellipsis2 0.6s infinite;}
+.lds-ellipsis .lds-4 {left:56px;animation:lds-ellipsis3 0.6s infinite;}
+@keyframes lds-ellipsis1 {0% {transform:scale(0);}100% {transform: scale(1);}}
+@keyframes lds-ellipsis3 {0% {transform:scale(1);}100% {transform: scale(0);}}
+@keyframes lds-ellipsis2 {0% {transform:translate(0, 0);}100% {transform: translate(24px, 0);}}
+/* ellipsis loader end */
+
+
+/* dotted spin loader start */
+.lds-dotted-spin{border-width:5px;border-style:dotted;border-radius:50%;box-sizing:border-box;animation:rotation 2s linear infinite;}
+@keyframes rotation {
+0% {transform: rotate(0deg);-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-o-transform: rotate(0deg)}
+100% {transform: rotate(360deg);-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-ms-transform: rotate(360deg);-o-transform: rotate(360deg)}
+} 
+/* dotted spin loader end */

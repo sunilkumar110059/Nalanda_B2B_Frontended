@@ -1,0 +1,92 @@
+
+#root {clear: both;height: 100%;overflow-x: hidden;}
+#main-container {display: flex;clear: both;min-height: 100%;}
+#main-container #nav-sidebar {display: flex;flex-direction: column;position: relative;box-shadow: var(--showdow-sidebar);width: 13rem;transition: all 0.3s ease-in-out;}
+#main-container #content-wrapper {display: flex;flex-direction: column;width: 100%;}
+
+.headerpart {box-shadow: var(--showdow-header);}
+
+#navButton{display:none;}
+.nalanda-logo {max-width: 120px;max-height: 50px;}
+.navbar {display: flex;flex-wrap: wrap;justify-content: space-between;margin-left: -10px;margin-right: -10px;}
+.navbar > * {padding-right: 10px;padding-left: 10px;}
+.navbar > .col-auto {flex: 0 0 auto;width: auto;}
+.navbar > .col {flex: 1 0 0%;}
+
+/* sidebar start */
+.side-navbar {position: relative;}
+.side-navbar > ul > li > a {display: flex;flex-wrap: wrap;padding: 1rem;border-bottom: solid 1px var(--border-2-2);width: 100%;}
+.side-navbar > ul > li > a > .nav-icon {display: flex;align-items: center;flex: 0 0 auto;width: auto;padding-right: 7px;font-size: 22px;color: var(--text-2-3);}
+.side-navbar > ul > li > a.active, .side-navbar > ul > li > a:hover{
+    background: linear-gradient(var(--gradient-1));
+    box-shadow: var(--showdow-4);    
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+    border: none;
+    width:105%; border-radius:0px 5px 5px 0px;
+}
+.side-navbar > ul > li > a > .nav-txt {display: flex;align-items: center;flex: 1 0 0%;color: var(--text-2-1);font-size: 14px;}
+.side-navbar > ul > li > a.active .nav-icon, .side-navbar > ul > li > a:hover .nav-icon {color: var(--text-1-1);}
+.side-navbar > ul > li > a.active .nav-txt, .side-navbar > ul > li > a:hover .nav-txt {color: var(--text-1-1);}
+/* sidebar end */
+
+
+/* logout start */
+.logout_col {position: relative; cursor: pointer;}
+.logout_col .dropbox {width: 12rem;top: 100%;right: 0;position: absolute;z-index: 22;}
+.logout_col .dropbox ul li a {display: flex;flex-wrap: wrap;padding: 10px 15px;cursor: pointer;}
+.logout_col .dropbox ul li:last-child {border: none;}
+.logout_col .dropbox ul li a .usericon {flex: 0 0 auto;width: 25px;}
+.logout_col .dropbox ul li a .usertext {flex: 1 0 0%;}
+/* logout end */
+
+/* notification start */
+.notifi-col{ position: relative;}
+.notifi-col .notifi{width: 32px;position: relative;cursor: pointer;}
+.notifi-col .notifi .noti-icon{margin-top: 10px;}
+.notifi-col .notifi .noti-counter{width: 20px;height:20px;top: 0;right: 0;display: flex;align-items: center;justify-content: center;position:absolute;border-radius: 50%;}
+
+.notifi-col .dropdown {width: 20rem;top: 100%;right: 0;position: absolute;z-index:333;}
+.notifi-col .dropdown ul { max-height: 400px; overflow-y: auto;}
+.notifi-col .dropdown ul li a{display: flex;flex-wrap: wrap;padding: 5px 15px;cursor: pointer;}
+.notifi-col .dropdown ul li:last-child {border: none;}
+.notifi-col .dropdown ul li a .noteicon {flex: 0 0 auto;min-width:45px; display: flex; align-items:center;}
+.notifi-col .dropdown ul li a .notetext {flex: 1 0 0%;}
+/* notification end */
+
+@media (max-width:769px) {
+#navButton{display:flex;}
+
+.navSideBarWrap { margin-left: -210px;}
+.navSideBarWrap .side-navbar{transform: translate(-125%, 0);}
+.sideBarShowHide{margin-left: 0;}
+.sideBarShowHide .side-navbar{transform: translate(0, 0);}
+
+.navbar {margin-left: -5px;margin-right: -5px;}
+.navbar > * {padding-right: 5px;padding-left: 5px;}
+.nalanda-logo {max-width: 80px;max-height: 50px;}
+.notifi-col .dropdown{width: 260px; right: -100%;}
+.notifi-col .dropdown ul { max-height: 250px;}
+.usernametext, .logoutwrap{display: none;}
+}
+
+
+/* week calander start */
+ .monthcol{display: flex; justify-content: center; align-items: center; }
+ .monthcol .monthshow { padding: 0 10px;}
+
+ .weekdaycol{width: 100%;}
+ .weekday .dayscol{ 
+    margin:0 auto; width: 75px; height: 80px; border-radius: 10px; cursor: pointer;  
+    display: flex; flex-direction: column; align-items: center; justify-content: center; 
+} 
+
+.weekday .activedate{ background-color: var(--bg-3-2); color: var(--text-1-1); }
+.weekday .selectdate { background-color: var(--bg-2-3); }
+
+.prevday, .nextday{display: flex; align-items: center;}
+.prevday, .nextday{ font-size: 26px; cursor:pointer;}
+
+/* week calander end */
